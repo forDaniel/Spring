@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (2.2.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.0):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.0)
+  - AFNetworking/Security (2.2.0)
+  - AFNetworking/Serialization (2.2.0)
+  - AFNetworking/UIKit (2.2.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FMDB (2.2):
+    - FMDB/standard
+  - FMDB/common (2.2)
+  - FMDB/SQLCipher (2.2):
+    - FMDB/common
+    - SQLCipher
+  - FMDB/standard (2.2):
+    - FMDB/common
+  - SQLCipher (3.0.1):
+    - SQLCipher/standard
+  - SQLCipher/standard (3.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - FMDB
+  - FMDB/SQLCipher
+
+SPEC CHECKSUMS:
+  AFNetworking: e8cfd8f3fe3bfe19124a0cc63f4d45752d892a56
+  FMDB: 97472cfacf0d9e445e915704fb43b4b142799c36
+  SQLCipher: 006f125d9b85e32ee6242b41adb68f0f5cbc4aa9
+
+COCOAPODS: 0.29.0
